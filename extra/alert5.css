@@ -1,0 +1,38 @@
+.alert {
+  padding: 5px;
+  background-color: #ffc561;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.alert p {
+  font-size: 14px;
+}
+.cross i {
+  font-size: 12px;
+  padding: 2px 4px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+
+.alertbold {
+  font-weight: bold;
+}
+.cross {
+  margin-top: -3px;
+}
+
+/* alered */
+.alertred {
+  padding: 5px;
+  background-color: #ff5d48e3;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.alertred p {
+  font-size: 14px;
+}
